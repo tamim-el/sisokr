@@ -18,16 +18,22 @@ pip install -r requirements.txt
 
 Data: contains
 - The data set Bibtex (Katakis et al., 2008)
+- The data set Bookmarks (Katakis et al., 2008) (please unzip bookmarks.zip file before running run_bookmarks.py)
+- The data set Mediamill (Snoek et al., 2008) (please unzip mediamill-train.zip file before running run_mediamill.py)
 
 Methods: contains 2 files:
 - Sketch.py contains a python class to implement sub-sampling (Rudi et al., 2015) and p-sparsified (El Ahmad et al., 2022) sketches
 - SketchedIOKR.py contains a python class to implement IOKR, SIOKR, ISOKR and SISOKR models
 
 Utils: contains 2 python files:
-- load_data.py where data loading function is implemented
+- load_data.py where data loading functions are implemented
 
 ## Use
 
 RUN python files:
 - run_bibtex.py: reproduces all results reported in the paper on Bibtex dataset with:
   python run_bibtex.py
+- run_bookmarks.py: reproduces all results reported in the paper on Bookmarks dataset with:
+  python run_bookmarks.py
+- run_mediamill.py: reproduces all results reported in the paper on Mediamill dataset with:
+  python run_mediamill.py
