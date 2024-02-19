@@ -1,0 +1,6 @@
+numpy
+scikit-learn
+scipy
+liac-arff
+scikit-multilearn
+
