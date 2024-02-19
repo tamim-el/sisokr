@@ -1,4 +1,4 @@
-# Sketch-In-Sketch-Out-Accelerating-both-Learning-and-Inference-for-Structured-Prediction-with-Kernels
+# Sketch In Sketch Out: Accelerating both Learning and Inference for Structured Prediction with Kernels
 
 This Python package contains code to use sketching on the input and output kernels for Structured Prediction.
 
