@@ -22,8 +22,8 @@ Data: contains
 - The data set Mediamill (Snoek et al., 2008) (please unzip mediamill-train.zip file before running run_mediamill.py)
 
 Methods: contains 2 files:
-- Sketch.py contains a python class to implement sub-sampling (Rudi et al., 2015) and p-sparsified (El Ahmad et al., 2022) sketches
-- SketchedIOKR.py contains a python class to implement IOKR, SIOKR, ISOKR and SISOKR models
+- Sketch.py contains Python classes to implement sub-sampling (Rudi et al., 2015) and p-sparsified (El Ahmad et al., 2022) sketches
+- SketchedIOKR.py contains Python classes to implement IOKR, SIOKR, ISOKR and SISOKR models
 
 Utils: contains 2 python files:
 - load_data.py where data loading functions are implemented
