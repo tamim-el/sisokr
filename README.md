@@ -37,3 +37,17 @@ RUN python files:
   python run_bookmarks.py
 - run_mediamill.py: reproduces all results reported in the paper on Mediamill dataset with:
   python run_mediamill.py
+
+## Cite
+
+If you use this code, please cite the corresponding work:
+
+```
+@misc{elahmad2023sketch,
+      title={Sketch In, Sketch Out: Accelerating both Learning and Inference for Structured Prediction with Kernels}, 
+      author={Tamim {El Ahmad} and Luc Brogat-Motte and Pierre Laforgue and Florence d'Alché-Buc},
+      year={2023},
+      eprint={2302.10128},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
