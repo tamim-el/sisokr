@@ -42,7 +42,7 @@ RUN python files:
 
 If you use this code, please cite the corresponding work:
 
-```
+```bibtex
 @InProceedings{elahmad2024sketch,
   title = 	 { Sketch In, Sketch Out: Accelerating both Learning and Inference for Structured Prediction with Kernels },
   author =       {El Ahmad, Tamim and Brogat-Motte, Luc and Laforgue, Pierre and d'Alch\'{e}-Buc, Florence},
@@ -58,3 +58,7 @@ If you use this code, please cite the corresponding work:
   url = 	 {https://proceedings.mlr.press/v238/el-ahmad24a.html},
   abstract = 	 { Leveraging the kernel trick in both the input and output spaces, surrogate kernel methods are a flexible and theoretically grounded solution to structured output prediction. If they provide state-of-the-art performance on complex data sets of moderate size (e.g., in chemoinformatics), these approaches however fail to scale. We propose to equip surrogate kernel methods with sketching-based approximations, applied to both the input and output feature maps. We prove excess risk bounds on the original structured prediction problem, showing how to attain close-to-optimal rates with a reduced sketch size that depends on the eigendecay of the input/output covariance operators. From a computational perspective, we show that the two approximations have distinct but complementary impacts: sketching the input kernel mostly reduces training time, while sketching the output kernel decreases the inference time. Empirically, our approach is shown to scale, achieving state-of-the-art performance on benchmark data sets where non-sketched methods are intractable. }
 }
+```
+
+
+![Poster](https://github.com/tamim-el/sisokr/blob/main/Misc/Poster.pdf?raw=true)
