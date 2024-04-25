@@ -61,4 +61,4 @@ If you use this code, please cite the corresponding work:
 ```
 
 
-![Poster](https://github.com/tamim-el/sisokr/blob/main/Misc/Poster.pdf?raw=true)
+![Poster](https://github.com/tamim-el/sisokr/blob/main/Misc/Poster.png?raw=true)
