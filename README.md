@@ -38,6 +38,10 @@ RUN python files:
 - run_mediamill.py: reproduces all results reported in the paper on Mediamill dataset with:
   python run_mediamill.py
 
+## Acknowledgments
+
+This work was supported by the Télécom Paris research chair on Data Science and Artificial Intelligence for Digitalized Industry and Services (DSAIDIS) and the French National Research Agency (ANR) through ANR-18-CE23-0014 APi (Apprivoiser la Pré-image). Funded by the European Union. Views and opinions expressed are however those of the authors only and do not necessarily reflect those of the European Union or European Commission. Neither the European Union nor the granting authority can be held responsible for them. This work received funding from the European Union’s Horizon Europe research and innovation program under grant agreement 101120237 (ELIAS).
+
 ## Cite
 
 If you use this code, please cite the corresponding work:
